@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
 
   @ViewChild('taskbar', { static: false })
   taskbar!: ElementRef<HTMLDivElement>;
+  title: any;
 
   ngOnInit() {}
 
